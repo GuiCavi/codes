@@ -11,7 +11,7 @@ export class StandardMaze implements Maze {
     this.sites.push(room);
   }
   getRoom(roomNumber: number): Room {
-    return this.sites[roomNumber];
+    return this.sites[roomNumber - 1];
   }
 
 }
