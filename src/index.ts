@@ -1,5 +1,5 @@
-import { Client } from "./creational/abstract-factory/AbstractFactory"
-// import { Client } from "./creational/builder/builder"
+// import { Runner } from "./creational/abstract-factory/MazeGame"
+import { Runner } from "./creational/builder/MazeGame"
 
-const client = new Client()
-client.run()
+const runner = new Runner();
+runner.run();
