@@ -1,0 +1,5 @@
+export * from "./BrickWall"
+export * from "./MagicDoor"
+export * from "./StandardDoor"
+export * from "./StandardMaze"
+export * from "./StandardRoom"
